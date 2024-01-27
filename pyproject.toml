@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "statusinvest"
+version = "0.1.0"
+description = "StatusInvest is a Python wrapper for the StatusInvest API."
+authors = ["Ruan Gustavo <dev.ruangustavo@gmail.com>"]
+readme = "README.md"
+
+[tool.ruff.lint]
+select = ["ANN", "I001"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+undetected-chromedriver = "^3.5.4"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
